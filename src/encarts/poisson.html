@@ -1,0 +1,122 @@
+@@include('./header.html')
+
+<h1
+    class="flex items-center justify-center text-3xl text-center text-white xs:mb-5 md:mb-10 h-14 bg-gradient-to-r from-sky-500 to-indigo-500">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+    </svg>
+    POISSON<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+    </svg>
+    <button type="button"
+        class="inline-flex items-center p-3 ml-2 text-sm font-medium text-gray-800 bg-white border border-gray-200 rounded-lg shadow-sm copy js-clipboard gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+        data-clipboard-element="#POISSON" data-clipboard-action="copy" data-clipboard-success-text="Copied">
+        <svg class="w-4 h-4 transition js-clipboard-default group-hover:rotate-6" xmlns="http://www.w3.org/2000/svg"
+            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+        </svg>
+
+        <svg class="hidden w-4 h-4 text-blue-600 js-clipboard-success" xmlns="http://www.w3.org/2000/svg" width="24"
+            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+        </svg>
+    </button>
+</h1>
+
+<div id="POISSON">
+
+    <section class="encart-secondaire twp">
+        <h2 class="uppercase font-light xs:mb-5 md:mb-8 w-full mx-auto text-center xs:text-fs25 lg:text-fs30 px-3">Nos
+            jeux du
+            moment… PARTICIPEZ&nbsp;VITE&nbsp;!</h2>
+
+        <div class="flex xs:flex-col md:flex-row gap-3">
+            <div class="md:w-1/2 mb-6 w-full">
+                <div
+                    class="flex xs:flex-col md:flex-row w-full h-full flex-wrap bg-[#F8F0EC] overflow-hidden rounded items-center py-4">
+                    <a class="xs:block md:hidden" href="$url('Search-Show', 'cgid', 'FR01')$">
+                        <picture>
+                            <source srcset="./img/poisson-1-txt.webp?$staticlink$">
+                            <img class="max-w-[230px]" src="./img/poisson-1-txt.webp$staticlink$" loading="lazy"
+                                alt="ALTPOISSON">
+                        </picture>
+                    </a>
+                    <div class="xs:w-4/5 md:w-2/5 text-center">
+                        <a href="$url('Search-Show', 'cgid', 'FR01')$">
+                            <picture>
+                                <source srcset="./img/poisson-1.webp?$staticlink$">
+                                <img class="object-contain xs:w-[230px] md:h-full md:w-full mx-auto"
+                                    src="./img/poisson-1.webp$staticlink$" loading="lazy" alt="ALTPOISSON">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="xs:w-full md:w-3/5 text-center flex xs:flex-col">
+                        <a class="xs:hidden md:block mx-auto" href="$url('Search-Show', 'cgid', 'FR01')$">
+                            <picture>
+                                <source srcset="./img/poisson-1-txt.webp?$staticlink$">
+                                <img class="xs:max-w-[200px] md:max-w-[170px] 2xl:max-w-[288px]"
+                                    src="./img/poisson-1-txt.webp$staticlink$" loading="lazy" alt="ALTPOISSON">
+                            </picture>
+                        </a>
+                        <p
+                            class="xs:px-5 md:px-0 xs:text-fs28 md:text-fs20 xl:text-fs24 2xl:text-fs28 pt-3 text-[#000000]">
+                            10 bons d’achat de 100€ <br class="xs:hidden xl:block" />
+                            à&nbsp;gagner
+                        </p>
+                        <a class="cta text-[#ffffff] bg-[#000000] border-[#000000] hover:text-[#000000] hover:bg-[#F8F0EC] mx-auto xs:mt-7 xs:mb-0 lg:mb-7 md:max-w-[170px] lg:max-w-[170px] 2xl:max-w-[360px] w-full"
+                            href="$url('Search-Show', 'cgid', 'FR01')$">
+                            Je joue
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 mb-6 w-full">
+                <div
+                    class="flex xs:flex-col md:flex-row w-full h-full flex-wrap bg-[#F8F0EC] overflow-hidden rounded items-center py-4">
+                    <a class="xs:block md:hidden" href="$url('Search-Show', 'cgid', 'FR01')$">
+                        <picture>
+                            <source srcset="./img/poisson-2-txt.webp?$staticlink$">
+                            <img class="max-w-[230px]" src="./img/poisson-2-txt.webp$staticlink$" loading="lazy"
+                                alt="ALTPOISSON">
+                        </picture>
+                    </a>
+                    <div class="xs:w-4/5 md:w-2/5 text-center">
+                        <a href="$url('Search-Show', 'cgid', 'FR01')$">
+                            <picture>
+                                <source srcset="./img/poisson-2.webp?$staticlink$">
+                                <img class="object-contain xs:w-[230px] md:h-full md:w-full mx-auto"
+                                    src="./img/poisson-2.webp$staticlink$" loading="lazy" alt="ALTPOISSON">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="xs:w-full md:w-3/5 text-center flex xs:flex-col">
+                        <a class="xs:hidden md:block mx-auto" href="$url('Search-Show', 'cgid', 'FR01')$">
+                            <picture>
+                                <source srcset="./img/poisson-2-txt.webp?$staticlink$">
+                                <img class="xs:max-w-[200px] md:max-w-[170px] 2xl:max-w-[288px]"
+                                    src="./img/poisson-2-txt.webp$staticlink$" loading="lazy" alt="ALTPOISSON">
+                            </picture>
+                        </a>
+                        <p
+                            class="xs:px-5 md:px-0 xs:text-fs28 md:text-fs20 xl:text-fs24 2xl:text-fs28 pt-3 text-[#000000]">
+                            A la recherche d’enfants <br class="xs:hidden xl:block" />
+                            Entre&nbsp;4&nbsp;et&nbsp;10&nbsp;ans
+                        </p>
+                        <a class="cta text-[#ffffff] bg-[#000000] border-[#000000] hover:text-[#000000] hover:bg-[#F8F0EC] mx-auto xs:mt-7 xs:mb-0 lg:mb-7 md:max-w-[170px] lg:max-w-[170px] 2xl:max-w-[360px] w-full"
+                            href="$url('Search-Show', 'cgid', 'FR01')$">
+                            J’inscris mon enfant
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
+
+@@include('./footer.html')

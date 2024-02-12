@@ -1,0 +1,79 @@
+@@include('./header.html')
+
+<h1
+    class="flex h-14 items-center justify-center bg-gradient-to-r from-sky-500 to-indigo-500 text-center text-3xl text-white xs:mb-5 md:mb-10">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+    </svg>
+    SOLEIL<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+    </svg>
+    <button type="button"
+        class="copy js-clipboard ml-2 inline-flex items-center gap-x-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-medium text-gray-800 shadow-sm hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+        data-clipboard-element="#SOLEIL" data-clipboard-action="copy" data-clipboard-success-text="Copied">
+        <svg class="js-clipboard-default h-4 w-4 transition group-hover:rotate-6" xmlns="http://www.w3.org/2000/svg"
+            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+        </svg>
+
+        <svg class="js-clipboard-success hidden h-4 w-4 text-blue-600" xmlns="http://www.w3.org/2000/svg" width="24"
+            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+        </svg>
+    </button>
+</h1>
+
+<div id="SOLEIL">
+    <section class="encart-secondaire relative bg-[#F7F1ED] xs:w-[100%] md:w-[85%] twp">
+        <div class="mx-auto flex xs:w-[96%] xs:flex-col md:w-[70%] md:flex-row xs:gap-0 md:gap-5 xl:gap-20">
+            <div class="flex-initial xs:px-0.5 xs:pt-10 xs:pb-0 md:py-8 md:w-1/2">
+                <div class="relative">
+                    <a href="$url('Search-Show', 'cgid', 'FR01')$">
+                        <picture>
+                            <source srcset="./img/soleil-1.webp?$staticlink$" />
+                            <img src="./img/soleil-1.webp?$staticlink$" loading="lazy" alt="ALTSOLEIL" />
+                        </picture>
+                        <div
+                            class="pointer-events-none absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2">
+                            <div class="text-center text-[#ffffff]">
+                                <h2 class="text-[#ffffff]">Zoom Mode</h2>
+                                <h3
+                                    class="font-damion xs:text-fs68 md:text-fs50 2xl:text-fs90 xs:leading-13 md:leading-none normal-case text-[#ffffff]">
+                                    Les Mailles
+                                </h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex items-start justify-center md:py-8 md:w-1/2">
+                <div class="bloc-texte">
+                    <a href="$url('Search-Show', 'cgid', 'FR01')$" class="xs:hidden md:block">
+                        <picture>
+                            <source srcset="./img/soleil-2.webp?$staticlink$" />
+                            <img src="./img/soleil-2.webp?$staticlink$" loading="lazy" alt="ALTSOLEIL" />
+                        </picture>
+                    </a>
+                    <div>
+                        <p class="mt-2 text-base text-[#000000] py-10 xs:hidden xl:block">
+                            Pulls, gilets, robes, bonnets et écharpes… avec le froid qui
+                            s’installe, les mailles d’hiver sont de retour&nbsp;! Découvrez
+                            nos favoris de la saison pour rester au chaud tout l’hiver.
+                        </p>
+                    </div>
+                    <a class="cta border-[#D9A49B] bg-[#D9A49B] text-center text-[#ffffff] hover:bg-[#ffffff] hover:text-[#D9A49B] xs:my-6 md:mt-8 xl:mt-0"
+                        href="$url('Search-Show', 'cgid', 'FR01')$">
+                        Je craque
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@@include('./footer.html')

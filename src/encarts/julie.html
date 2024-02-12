@@ -1,0 +1,77 @@
+@@include('./header.html')
+
+<h1
+    class="flex items-center justify-center text-3xl text-center text-white xs:mb-5 md:mb-10 h-14 bg-gradient-to-r from-sky-500 to-indigo-500">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+    </svg>
+    JULIE<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+    </svg>
+    <button type="button"
+        class="inline-flex items-center p-3 ml-2 text-sm font-medium text-gray-800 bg-white border border-gray-200 rounded-lg shadow-sm copy js-clipboard gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+        data-clipboard-element="#JULIE" data-clipboard-action="copy" data-clipboard-success-text="Copied">
+        <svg class="w-4 h-4 transition js-clipboard-default group-hover:rotate-6" xmlns="http://www.w3.org/2000/svg"
+            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+        </svg>
+
+        <svg class="hidden w-4 h-4 text-blue-600 js-clipboard-success" xmlns="http://www.w3.org/2000/svg" width="24"
+            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+        </svg>
+    </button>
+</h1>
+
+<div id="JULIE">
+    <section class="relative twp">
+        <div class="encart-secondaire relative xs:bg-[#DDC3B8] md:bg-inherit">
+            <div class="absolute bg-[#DDC3B8] w-full md:h-[230px] lg:h-[400px]"></div>
+            <div class="flex xs:flex-col md:flex-row md:gap-5 justify-center">
+                <div
+                    class="flex flex-row flex-initial md:w-3/5 lg:w-2/3 lg:max-w-[900px] xs:p-5 md:p-0 xs:order-1 md:order-1">
+                    <a href="$url('Search-Show', 'cgid', 'FR01')$"
+                        class="relative md:top-[90px] left-[50px] xs:pt-6 md:pt-0 xs:pl-6 md:pl-0 z-10 xs:hidden md:block">
+                        <picture>
+                            <source media="(max-width:768px)" srcset="./img/julie-1.webp?$staticlink$">
+                            <img src="./img/julie-1.webp?$staticlink$" loading="lazy" alt="ALTBREE">
+                        </picture>
+                    </a>
+                    <a href="$url('Search-Show', 'cgid', 'FR01')$" class="relative md:top-[35px]">
+                        <picture>
+                            <source srcset="./img/julie-2.webp?$staticlink$">
+                            <img src="./img/julie-2.webp?$staticlink$" loading="lazy" alt="ALTBREE">
+                        </picture>
+                    </a>
+                </div>
+                <div
+                    class="flex items-center justify-center md:w-2/5 lg:w-1/3 lg:max-w-[650px] max-h-[400px] xs:mt-1 md:mt-0 relative xs:order-2 md:order-2">
+                    <div class="bloc-texte">
+                        <div class="xs:text-center md:text-left">
+                            <h2>Blouses</h2>
+                            <h3>LES EXCLUS&nbsp;WEB</h3>
+                        </div>
+                        <!-- <p
+                            class="text-base text-[#000000] xs:mt-2 xs:mb-5 xs:text-center md:text-left xs:hidden xl:block">
+                            Envie de nouveaux looks pour la rentrée ? Nos stylistes ont décrypté pour vous les
+                            indispensables de saison à suivre sans attendre et surtout proposés en ce moment jusqu’à
+                            -50%.
+                        </p> -->
+                        <a class="cta text-[#ffffff] bg-[#000000] border-[#000000] hover:text-[#000000] hover:bg-[#ffffff]"
+                            href="$url('Search-Show', 'cgid', 'FR01')$">
+                            Voir la sélection
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+@@include('./footer.html')
